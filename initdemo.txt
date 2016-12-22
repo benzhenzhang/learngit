@@ -74,3 +74,8 @@ $ git branch -d branch_name			#删除分支
 只有在解决了冲突之后才能提交
 $ git log --graph					#查看分支合并图  参数--pretty=oneline --abbrev-commit
 
+	分支管理策略
+通常合并分支时,如果可能，Git会用Fast forward模式，但这种模式下，删除分支后，会丢掉分支信息
+如果要强制禁用Fast forward模式，Git就会在merge时生成一个新的commit，这样，从分支历史上就可以看出分支信息
+$ git merge --no-ff -m "" branch_name   #采取禁用Fast forward模式合并分支(公司开发时使用)
+
