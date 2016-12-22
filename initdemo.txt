@@ -1,7 +1,14 @@
 2016/12/22 leaning git
 
 git指令
-$ git add file #添加文件
-$ git commit -m "" #添加备注 完成文件提交
-$ git status  #查看仓库当前状态
-$ git diff file #查看文件修改内容
+$ git add file 						#添加文件
+$ git commit -m "" 					#添加备注 完成文件提交
+$ git status  						#查看仓库当前状态
+$ git diff file 					#查看文件修改内容
+
+$ git log 							#查看提交的日志
+$ git log --pretty=oneline 			#以每次一行的方式显示提交的日志
+$ git reset --hard HEAD^ 			#返回上一次提交的版本 上上个版本HEAD^^  很多个版本之前的HEAD~num
+$ cat file 							#查看文件内容
+$ git reset --hard commit_id  		#返回到某个版本
+$ git reflog 						#查看命令历史
