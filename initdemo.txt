@@ -96,5 +96,3 @@ $ git stash apply stash@{num}		#恢复之前保存的stash
 $ git stash drop stash@{num}		#删除stash
 $ git stash pop						#恢复的同时也一起删除了stash
 
-
-asd
