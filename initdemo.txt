@@ -53,8 +53,10 @@ $ git rm file						#从版本库中删除该文件 并且git commit提交
 你只能恢复文件到最新版本，你会丢失最近一次提交后你修改的内容。
 
 $ ssh-keygen -t rsa -C "youremail@example.com"  #创建SHH Key
-$ git remote add origin git@github.com:michaelliao/learngit.git  #关联远程仓库 
+$ git remote add origin git@github.com:benzhenzhang/learngit.git  #关联远程仓库 
 																  第一次关联会有warning 用于确认是否连接github
 																  连接后远程库的名字就是origin
 $ git push -u origin master   		#第一次推送master分支时使用
-$ git push origin master			#推送本地修改													  
+$ git push origin master			#推送本地修改
+
+$ git clone git@github.com:benzhenzhang/gitskills.git 	  #还可以用https://github.com/michaelliao/gitskills.git												  
