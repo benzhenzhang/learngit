@@ -42,3 +42,5 @@ $ git reset HEAD file 				#可以把暂存区的修改撤销掉（unstage），�
 然后再次时候$ git checkout -- file 将工作区的修改丢弃
 
 版本回退是有条件的  就是不能把自己的本地版本推送到远程库
+
+$ git log 退出按q
