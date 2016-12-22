@@ -72,4 +72,5 @@ $ git branch -d branch_name			#删除分支
 	解决冲突
 当主线与分支共同修改同个文件的同处地方 提交合并时 git只能试图把各自的修改合并起来
 只有在解决了冲突之后才能提交
+$ git log --graph					#查看分支合并图  参数--pretty=oneline --abbrev-commit
 
