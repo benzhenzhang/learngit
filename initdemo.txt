@@ -1,4 +1,7 @@
 2016/12/22 leaning git
 
-change something
-like this
+git指令
+$ git add file #添加文件
+$ git commit "" #添加备注 完成文件提交
+$ git status  #查看仓库当前状态
+$ git diff file #查看文件修改内容
