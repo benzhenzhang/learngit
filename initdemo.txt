@@ -51,3 +51,10 @@ $ rm file  							#删除文件 如果删错 可用$ git checkout -- file 从版
 $ git rm file						#从版本库中删除该文件 并且git commit提交
 命令git rm用于删除一个文件。如果一个文件已经被提交到版本库，那么你永远不用担心误删，但是要小心，
 你只能恢复文件到最新版本，你会丢失最近一次提交后你修改的内容。
+
+$ ssh-keygen -t rsa -C "youremail@example.com"  #创建SHH Key
+$ git remote add origin git@github.com:michaelliao/learngit.git  #关联远程仓库 
+																  第一次关联会有warning 用于确认是否连接github
+																  连接后远程库的名字就是origin
+$ git push -u origin master   		#第一次推送master分支时使用
+$ git push origin master			#推送本地修改													  
