@@ -12,7 +12,7 @@ $ git reset --hard HEAD^ 			#返回上一次提交的版本 上上个版本HEAD^
 $ cat file 							#查看文件内容
 $ git reset --hard commit_id  		#返回到某个版本
 $ git reflog 						#查看命令历史
-
+$ git diff HEAD -- file				#查看file在工作区和版本库里的区别
 Git的工作区和暂存区
 就是你在电脑里能看到的目录，比如我的User文件夹就是一个工作区
 版本库（Repository） 工作区有一个隐藏目录.git，这个不算工作区，而是Git的版本库。
