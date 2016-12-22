@@ -62,10 +62,13 @@ $ git push origin master			#推送本地修改
 $ git clone git@github.com:benzhenzhang/gitskills.git 	  #还可以用https://github.com/michaelliao/gitskills.git
 
 分支管理
-创建分支
+	创建分支
 $ git checkout -b branch_name  		#创建分支
 									  相当于两条git指令 $ git branch dev 
 													    $ git checkout dev
 $ git branch 						#列出所有分支
 $ git merge branch_name				#将指定的分支合并到当前分支	
-$ git branch -d branch_name			#删除分支							  
+$ git branch -d branch_name			#删除分支	
+	解决冲突
+当主线与分支共同修改同个文件的同处地方 提交合并时 git只能试图把各自的修改合并起来
+只有在解决了冲突之后才能提交asdasdqw
