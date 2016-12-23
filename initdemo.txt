@@ -96,3 +96,6 @@ $ git stash apply stash@{num}		#恢复之前保存的stash
 $ git stash drop stash@{num}		#删除stash
 $ git stash pop						#恢复的同时也一起删除了stash
 
+	Feature分支
+开发新功能时 应创建新分支  如果要取消这个功能,删除此分支需要以下指令
+$git branch -D branch_name  		#D注意与-d的区别  D强行删除
